@@ -4,47 +4,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="index.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fira+Sans&family=Heebo:wght@300&family=Ubuntu&display=swap"
         rel="stylesheet">
-    <title>Registeration Form</title>
+    <title>Document</title>
 </head>
 
 <body>
-    <div id="al">
-        <div class="forms">
-            <h2>Registeration</h2>
-            <form action="backend.php">
-                
-                <div class="inputbox">
-                    <div>
-                        <input type="text" Name="MyName" placeholder="Name">
-                    </div>
-                    <br>
-                    <div>
-                        <input type="text" Name="MyEmail" placeholder="Email">
-                    </div>
-                    <br>
-
-                    <div><input type="Password" Name="Mypassword" placeholder="Password"></div>
-                    <br>
-
-                    <input type="password" name="Mypassword" placeholder="Confirm Password">
-
-
-                    <br><br>
-                    <div class="gender">Male &#8205;<input type="radio" name="MyGender">
-                        &#8205;&#8205;
-                        Female &#8205;<input type="radio" name="MyGender"></div>
-
-                    <div class="elgbl"> Are you eligible: <input type="checkbox" name="MyEligibility"></div>
-                    <input id="btn" type="submit" value="Submit now">
+    <div class="container">
+        <div class="outerbox">
+            <h1>Registeration</h1>
+            <form>
+                <div class="inputBox">
+                    <label for=""></label>
+                    <input type="text" placeholder="Name">
                 </div>
+                <div class="inputBox">
+                    <label for=""></label>
+                    <input type="text" placeholder="Email">
+                </div>
+                <div class="inputBox">
+                    <label for=""></label>
+                    <input type="password" placeholder="Password">
+                </div>
+                <div class="inputBox">
+                    <label for=""></label>
+                    <input type="password" placeholder="Confirm Password">
+                </div>
+                <div class="gender">Male <input type="radio" name="MyGender">
+                    Female <input type="radio" name="MyGender">
+                </div>
+                <div class="elgbl"> Are you eligible: <input type="checkbox" name="MyEligibility">
+                </div>
+                <input id="btn" type="submit" value="Submit now">
+
             </form>
         </div>
-    
     </div>
 </body>
 
