@@ -15,7 +15,7 @@ body {
 }
 
 .container .outerbox {
-    width: 30%;
+    width: 28%;
     height: 65vh;
     position: absolute;
     margin: 6% 30%;
@@ -54,11 +54,11 @@ body {
 
 .inputBox input {
     color: white;
-    width: 250px;
-    height: 25px;
+    width: 260px;
+    height: 30px;
     border-radius: 5px;
     padding: 0px 10px;
-    margin: 0px 0px;
+    margin: 0px auto;
     background: none;
 }
 
